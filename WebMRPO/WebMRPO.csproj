@@ -72,8 +72,12 @@
       <DependentUpon>ListUsers.mdf</DependentUpon>
     </Content>
     <Content Include="AuthorizationPage.aspx" />
+    <Content Include="css\TestFile.txt" />
     <Content Include="MainWindow.aspx" />
+    <Content Include="ProgramPages\TestFile.txt" />
     <Content Include="RegistrationPage.aspx" />
+    <Content Include="resources\TestFile.txt" />
+    <Content Include="TheoryPages\TestFile.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -110,12 +114,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="css\" />
-    <Folder Include="ProgramPages\" />
-    <Folder Include="resources\" />
-    <Folder Include="TheoryPages\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
