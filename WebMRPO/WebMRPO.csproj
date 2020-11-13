@@ -72,11 +72,12 @@
       <DependentUpon>ListUsers.mdf</DependentUpon>
     </Content>
     <Content Include="AuthorizationPage.aspx" />
-    <Content Include="css\TestFile.txt" />
+    <Content Include="css\StyleMainWindow.css" />
     <Content Include="MainWindow.aspx" />
     <Content Include="ProgramPages\TestFile.txt" />
     <Content Include="RegistrationPage.aspx" />
-    <Content Include="resources\TestFile.txt" />
+    <Content Include="resources\Class\ReadXmlAndResponceWrtite.xml" />
+    <Content Include="resources\ListPagesTheory.xml" />
     <Content Include="TheoryPages\TestFile.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -104,6 +105,7 @@
     <Compile Include="RegistrationPage.aspx.designer.cs">
       <DependentUpon>RegistrationPage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="resources\Class\ReadXmlAndResponceWrite.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
