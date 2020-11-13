@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<list value="Список">
+  <theme name="Тема 1">
+    <article url="url1">Статья 1</article>
+    <article url="url2">Статья 2</article>
+    <article url="url3">Статья 3</article>
+    <article url="url4">Статья 4</article>
+  </theme>
+  <theme name="Тема 2">
+    <article url="url1">Статья 1</article>
+    <article url="url2">Статья 2</article>
+    <article url="url3">Статья 3</article>
+    <article url="url4">Статья 4</article>
+  </theme>
+  <theme name="Тема 3">
+    <article url="url1">Статья 1</article>
+    <article url="url2">Статья 2</article>
+    <article url="url3">Статья 3</article>
+    <article url="url4">Статья 4</article>
+    <article url="url5">Статья 5</article>
+  </theme>
+</list>
