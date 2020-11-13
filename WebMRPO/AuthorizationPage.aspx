@@ -4,21 +4,31 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
+    <link rel="stylesheet" href="css/StyleAuthorization.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>3.1 ПМИ</title>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <asp:Label ID="lblLogin" runat="server" Text="Логин: "></asp:Label>
-            <asp:TextBox ID="tbLogin" runat="server"></asp:TextBox>
+        <div id="WindowAuthorizationPage">
+            <asp:Label ID="lblResultName" runat="server" Text=""/>
+            <div id="LabelAuthorizationPage">
+                <asp:Label ID="lblLogin" runat="server" Text="Логин: " />
+                <br />
+                <br />
+                <asp:Label ID="lblPassword" runat="server" Text="Пароль: " />
+            </div>
+            <div id="TextBoxAuthorizationPage">
+                <asp:TextBox ID="tbLogin" runat="server" class="tb"/>
+                <br />
+                <br />
+                <asp:TextBox ID="tbPassword" runat="server" class="tb"/>
+            </div>
+            <div id="ButtonAuthorizationPage">
+                <asp:Button ID="btnAuthorization" runat="server" Text="Войти" OnClick="btnAuthorization_Click" class="button"/>
+                <asp:Button ID="btnRegistration" runat="server" Text="Зарегистрироваться" class="button"/>
+            </div>
         </div>
-        <p>
-            <asp:Label ID="lblPassword" runat="server" Text="Пароль: "></asp:Label>
-            <asp:TextBox ID="tbPassword" runat="server"></asp:TextBox>
-        </p>
-        <asp:Button ID="btnAuthorization" runat="server" Text="Войти" OnClick="btnAuthorization_Click" />
-        <asp:Label ID="lblResultName" runat="server" Text=""></asp:Label>
     </form>
 </body>
 </html>

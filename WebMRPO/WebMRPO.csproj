@@ -72,7 +72,9 @@
       <DependentUpon>ListUsers.mdf</DependentUpon>
     </Content>
     <Content Include="AuthorizationPage.aspx" />
+    <Content Include="css\StyleAuthorization.css" />
     <Content Include="css\StyleMainWindow.css" />
+    <Content Include="css\StyleRegistration.css" />
     <Content Include="MainWindow.aspx" />
     <Content Include="ProgramPages\TestFile.txt" />
     <Content Include="RegistrationPage.aspx" />

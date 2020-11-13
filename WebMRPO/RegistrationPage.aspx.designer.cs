@@ -33,6 +33,24 @@ namespace WebMRPO
         protected global::System.Web.UI.WebControls.Label lblName;
 
         /// <summary>
+        /// Label1 элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label1;
+
+        /// <summary>
+        /// Label2 элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label2;
+
+        /// <summary>
         /// tbName элемент управления.
         /// </summary>
         /// <remarks>
@@ -42,15 +60,6 @@ namespace WebMRPO
         protected global::System.Web.UI.WebControls.TextBox tbName;
 
         /// <summary>
-        /// lblLogin элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически создаваемое поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblLogin;
-
-        /// <summary>
         /// tbLogin элемент управления.
         /// </summary>
         /// <remarks>
@@ -58,15 +67,6 @@ namespace WebMRPO
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbLogin;
-
-        /// <summary>
-        /// lblPassword элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически создаваемое поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblPassword;
 
         /// <summary>
         /// tbPasswod элемент управления.

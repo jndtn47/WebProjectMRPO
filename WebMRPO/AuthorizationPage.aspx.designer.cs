@@ -24,6 +24,15 @@ namespace WebMRPO
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
+        /// lblResultName элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblResultName;
+
+        /// <summary>
         /// lblLogin элемент управления.
         /// </summary>
         /// <remarks>
@@ -33,15 +42,6 @@ namespace WebMRPO
         protected global::System.Web.UI.WebControls.Label lblLogin;
 
         /// <summary>
-        /// tbLogin элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически создаваемое поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbLogin;
-
-        /// <summary>
         /// lblPassword элемент управления.
         /// </summary>
         /// <remarks>
@@ -49,6 +49,15 @@ namespace WebMRPO
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblPassword;
+
+        /// <summary>
+        /// tbLogin элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tbLogin;
 
         /// <summary>
         /// tbPassword элемент управления.
@@ -69,12 +78,12 @@ namespace WebMRPO
         protected global::System.Web.UI.WebControls.Button btnAuthorization;
 
         /// <summary>
-        /// lblResultName элемент управления.
+        /// btnRegistration элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblResultName;
+        protected global::System.Web.UI.WebControls.Button btnRegistration;
     }
 }
