@@ -75,11 +75,13 @@
     <Content Include="css\StyleAuthorization.css" />
     <Content Include="css\StyleMainWindow.css" />
     <Content Include="css\StyleRegistration.css" />
+    <Content Include="css\StyleTheoryPage.css" />
     <Content Include="MainWindow.aspx" />
     <Content Include="ProgramPages\TestFile.txt" />
     <Content Include="RegistrationPage.aspx" />
     <Content Include="resources\Class\ReadXmlAndResponceWrtite.xml" />
     <Content Include="resources\ListPagesTheory.xml" />
+    <Content Include="TheoryPages\TemplateTheoryPage.aspx" />
     <Content Include="TheoryPages\TestFile.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -108,6 +110,13 @@
       <DependentUpon>RegistrationPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="resources\Class\ReadXmlAndResponceWrite.cs" />
+    <Compile Include="TheoryPages\TemplateTheoryPage.aspx.cs">
+      <DependentUpon>TemplateTheoryPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\TemplateTheoryPage.aspx.designer.cs">
+      <DependentUpon>TemplateTheoryPage.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

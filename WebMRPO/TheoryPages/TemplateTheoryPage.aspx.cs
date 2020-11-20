@@ -5,14 +5,12 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using WebMRPO.resources.Class;
-using System.IO;
 
-namespace WebMRPO
+namespace WebMRPO.TheoryPages
 {
-    public partial class MainWindow : System.Web.UI.Page
+    public partial class TemplateTheoryPage : System.Web.UI.Page
     {
         public string htmlArrayList = "";
-        HttpApplication _app = new HttpApplication();
         ReadXmlAndResponceWrite createList = new ReadXmlAndResponceWrite();
         protected void Page_Load(object sender, EventArgs e)
         {
