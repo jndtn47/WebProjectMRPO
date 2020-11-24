@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Hosting;
 using System.Xml;
 
 namespace WebMRPO.resources.Class{
@@ -12,7 +13,8 @@ namespace WebMRPO.resources.Class{
         public string ReadXml()
         {
             XmlDocument xDoc = new XmlDocument();
-            xDoc.Load("C:\\WebMRPO\\WebMRPO\\resources\\ListPagesTheory.xml");
+            //xDoc.Load("C:\\WebMRPO\\WebMRPO\\resources\\ListPagesTheory.xml");
+            xDoc.Load(HostingEnvironment.MapPath("~\\resources\\ListPagesTheory.xml"));
             XmlElement xRoot = xDoc.DocumentElement;
             htmlArrayList = "<dl>";
             foreach (XmlNode xnode in xRoot)

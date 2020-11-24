@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>WebSharper.MathJS</name>
+  </assembly>
+  <member name="M:WebSharper.MathJS.MathInstance.Typed(System.Object)">
+    <summary>Creates a typed function.</summary>
+  </member>
+  <member name="M:WebSharper.MathJS.MathInstance.Typed(System.String,System.Object)">
+    <summary>Creates a typed function.</summary>
+  </member>
+  <member name="M:WebSharper.MathJS.MathInstance.Chain">
+    <summary>Chain functions.</summary>
+  </member>
+  <member name="M:WebSharper.MathJS.MathInstance.Chain(WebSharper.MathJS.MathNumber)">
+    <summary>Chain functions.</summary>
+  </member>
+  <member name="M:WebSharper.MathJS.MathInstance.Chain(System.Double)">
+    <summary>Chain functions.</summary>
+  </member>
+  <member name="M:WebSharper.MathJS.MathInstance.Chain(System.Int32)">
+    <summary>Chain functions.</summary>
+  </member>
+  <member name="M:WebSharper.MathJS.MathInstance.Chain(WebSharper.MathJS.MathUnit)">
+    <summary>Chain functions.</summary>
+  </member>
+  <member name="M:WebSharper.MathJS.MathInstance.Config(WebSharper.MathJS.Config)">
+    <summary>Configure the math engine.</summary>
+  </member>
+  <member name="M:WebSharper.MathJS.MathInstance.Create">
+    <summary>Create and configure a math engine.</summary>
+  </member>
+  <member name="M:WebSharper.MathJS.MathInstance.Create(WebSharper.MathJS.Config)">
+    <summary>Create and configure a math engine.</summary>
+  </member>
+  <member name="M:WebSharper.MathJS.Math.Typed(System.Object)">
+    <summary>Creates a typed function.</summary>
+  </member>
+  <member name="M:WebSharper.MathJS.Math.Typed(System.String,System.Object)">
+    <summary>Creates a typed function.</summary>
+  </member>
+  <member name="M:WebSharper.MathJS.Math.Chain">
+    <summary>Chain functions.</summary>
+  </member>
+  <member name="M:WebSharper.MathJS.Math.Chain(WebSharper.MathJS.MathNumber)">
+    <summary>Chain functions.</summary>
+  </member>
+  <member name="M:WebSharper.MathJS.Math.Chain(System.Double)">
+    <summary>Chain functions.</summary>
+  </member>
+  <member name="M:WebSharper.MathJS.Math.Chain(System.Int32)">
+    <summary>Chain functions.</summary>
+  </member>
+  <member name="M:WebSharper.MathJS.Math.Chain(WebSharper.MathJS.MathUnit)">
+    <summary>Chain functions.</summary>
+  </member>
+  <member name="M:WebSharper.MathJS.Math.Config(WebSharper.MathJS.Config)">
+    <summary>Configure the math engine.</summary>
+  </member>
+  <member name="M:WebSharper.MathJS.Math.Create">
+    <summary>Create and configure a math engine.</summary>
+  </member>
+  <member name="M:WebSharper.MathJS.Math.Create(WebSharper.MathJS.Config)">
+    <summary>Create and configure a math engine.</summary>
+  </member>
+</doc>

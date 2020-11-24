@@ -5,9 +5,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <link rel="stylesheet" href="../css/StyleTheoryPage.css" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title></title>
 </head>
+    <script type="text/javascript" src="http://tex.yourequations.com/"></script>
 <body>
     <form id="form1" runat="server">
         <div id="workspace">
