@@ -4,9 +4,14 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <link rel="stylesheet" href="../css/StyleTheoryPage.css" />
+    <link rel="stylesheet" href="../css/StylePageTheory.css" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title></title>
+    <title>3.1 ПМИ</title>
+    <style>
+        #workspace{
+            height: 2500px;
+        }
+    </style>
 </head>
     <script type="text/javascript" src="http://tex.yourequations.com/"></script>
 <body>

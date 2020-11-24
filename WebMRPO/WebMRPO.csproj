@@ -114,13 +114,11 @@
     <Content Include="css\StyleAuthorization.css" />
     <Content Include="css\StyleMainWindow.css" />
     <Content Include="css\StyleRegistration.css" />
-    <Content Include="css\StyleTheoryPage.css" />
+    <Content Include="css\StylePageTheory.css" />
     <Content Include="MainWindow.aspx" />
     <Content Include="ProgramPages\TestFile.txt" />
     <Content Include="RegistrationPage.aspx" />
-    <Content Include="resources\Class\ReadXmlAndResponceWrtite.xml" />
     <Content Include="resources\ListPagesTheory.xml" />
-    <Content Include="resources\test\035.jpg" />
     <Content Include="TheoryPages\TemplateTheoryPage.aspx" />
     <Content Include="TheoryPages\TestFile.txt" />
     <Content Include="Web.config" />

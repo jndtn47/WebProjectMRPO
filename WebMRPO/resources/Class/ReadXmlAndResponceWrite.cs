@@ -13,7 +13,6 @@ namespace WebMRPO.resources.Class{
         public string ReadXml()
         {
             XmlDocument xDoc = new XmlDocument();
-            //xDoc.Load("C:\\WebMRPO\\WebMRPO\\resources\\ListPagesTheory.xml");
             xDoc.Load(HostingEnvironment.MapPath("~\\resources\\ListPagesTheory.xml"));
             XmlElement xRoot = xDoc.DocumentElement;
             htmlArrayList = "<dl>";
