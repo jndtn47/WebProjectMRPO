@@ -1,13 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <list value="Список">
-  <theme name="Тема 1">
-    <article url="url1">Статья 1</article>
-    <article url="url2">Статья 2</article>
-    <article url="url3">Статья 3</article>
-    <article url="url4">Статья 4</article>
+  <theme name="Неопределенные интегралы">
+    <article url="/TheoryPages/1.TheConceptOfIndefiniteIntegral.aspx">Понятие первообразной функции и неопределенного интеграла</article>
+    <article url="/TheoryPages/2.DirectIntegration.aspx">Метод непосредственного интегрирования</article>
+    <article url="/TheoryPages/3.MethodOfReplacingVariable.aspx">Метод замены переменной</article>
+    <article url="/TheoryPages/4.IntegrationByParts.aspx">Метод интегрирования по частям</article>
+    <article url="/TheoryPages/5.IntegrationOfFractions.aspx">Интегрирование рациональных функций (рациональных дробей)</article>
+    <article url="/TheoryPages/6.SimplestFractions.aspx">Интегрирование простейших дробей</article>
+    <article url="/TheoryPages/7.TrigonometricExpressions.aspx">Интегрирование тригонометрических выражений</article>
+    <article url="/TheoryPages/8.FractionalLinearIrrationalities.aspx">Интегрирования дробно-линейных иррациональностей</article>
+    <article url="/TheoryPages/9.BinomialDifferentials.aspx">Интегрирование биномиальных дифференциалов</article>
+    <article url="/TheoryPages/10.SubstitutionOfEuler.aspx">Интегрирование квадратичных иррациональностей. Подстановки Эйлера</article>
+  </theme>
+  <theme name="Определенные интегралы">
+    <article url="/TheoryPages/11.ConceptDefiniteIntegral.aspx">Понятие определенного интеграла</article>
+    <article url="/TheoryPages/12.ClassesIntegrableFunctions.aspx">Классы интегрируемых функций</article>
+    <article url="/TheoryPages/13.PropertiesDefiniteIntegral.aspx">Свойства определенного интеграла</article>
+    <article url="/TheoryPages/14.NewtonLeibnizFormula.aspx">Формула Ньютона-Лейбница для вычисления определенного интеграла</article>
+    <article url="/TheoryPages/15.ChangeVariable.aspx">Метод замены переменной в определенном интеграле</article>
+    <article url="/TheoryPages/16.IntegrationByParts.aspx">Метод интегрирования по частям в определенном интеграле</article>
+    <article url="/TheoryPages/17.EvenOddFunctions.aspx">Интегрирование четных, нечетных и периодических функций</article>
+    <article url="/TheoryPages/18.ImproperIntegral1.aspx">Понятие несобственного интеграла первого рода</article>
+    <article url="/TheoryPages/19.ImproperIntegral2.aspx">Понятие несобственного интеграла второго рода</article>
   </theme>
   <theme name="Тема 2">
-    <article url="url1">Статья 1</article>
+    <article url="~/AuthorizationPage.aspx">Статья 1</article>
     <article url="url2">Статья 2</article>
     <article url="url3">Статья 3</article>
     <article url="url4">Статья 4</article>

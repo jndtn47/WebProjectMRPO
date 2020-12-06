@@ -12,7 +12,6 @@ namespace WebMRPO
     public partial class MainWindow : System.Web.UI.Page
     {
         public string htmlArrayList = "";
-        HttpApplication _app = new HttpApplication();
         ReadXmlAndResponceWrite createList = new ReadXmlAndResponceWrite();
         protected void Page_Load(object sender, EventArgs e)
         {

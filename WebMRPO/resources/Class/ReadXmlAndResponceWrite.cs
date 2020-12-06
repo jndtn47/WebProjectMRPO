@@ -27,7 +27,7 @@ namespace WebMRPO.resources.Class{
                 foreach (XmlNode childnode in xnode.ChildNodes)
                     if (childnode.Name == "article")
                     {
-                        writeHtmlLine(false, $"{childnode.InnerText}", $"{childnode.Attributes.GetNamedItem("url")}");
+                        writeHtmlLine(false, $"{childnode.InnerText}", $"{childnode.Attributes.GetNamedItem("url").Value}");
                     }
             }
             htmlArrayList += "</dl>";
@@ -41,7 +41,7 @@ namespace WebMRPO.resources.Class{
             }
             else
             {
-                htmlArrayList += "<dd><a href=\"" + _url + "\" >" + _name + "</a></dd>";
+                htmlArrayList += "<dd><a href=" + _url + " \\ >" + _name + "</a></dd>";
             }
         }
     }

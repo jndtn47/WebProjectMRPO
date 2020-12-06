@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="css/StyleMainWindow.css" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>3.1 ПМИ</title>
+    <style>
+   .scale {
+    transition: 1s; /* Время эффекта */
+   }
+   .scale:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
+  </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -27,9 +35,10 @@
                     <table>
                         <tr>
                             <td>
-                                <asp:ImageButton ID="ImageButton1" runat="server" Width="250" Height="150" /></td>
+                              <a href="TheoryPages/1.TheConceptOfIndefiniteIntegral.aspx"> <img src="resources/MenuImg/MenuIndefinitelIntegral.png" width="250" height="150" class="scale"/></a>
                             <td>
-                                <asp:ImageButton ID="ImageButton2" runat="server" Width="250" Height="150" /></td>
+                               <a href="TheoryPages/11.ConceptDefiniteIntegral.aspx"><img src="resources/MenuImg/MenuDefiniteIntegral.png" width="250" height="150" class="scale" /></a>  
+                            </td>
                         </tr>
                     </table>
                 </div>

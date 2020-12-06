@@ -11,6 +11,9 @@
         #workspace{
             height: 2500px;
         }
+        a {
+            color: black;
+        }
     </style>
 </head>
     <script type="text/javascript" src="http://tex.yourequations.com/"></script>
@@ -30,10 +33,11 @@
             </div>
             <div id="content">
                 <div id="theorylist">
-                    <div>
-                    </div>
+                    <%Response.Write(htmlArrayList);%>
                 </div>
                 <div id="text">
+                    <h1>Свойства</h1>
+                    <img src="https://latex.codecogs.com/gif.latex?b^{a}" title="b^{a}" />
                 </div>
             </div>
             <div id="footer">Подвал</div>

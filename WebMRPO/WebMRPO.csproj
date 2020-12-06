@@ -119,6 +119,31 @@
     <Content Include="ProgramPages\TestFile.txt" />
     <Content Include="RegistrationPage.aspx" />
     <Content Include="resources\ListPagesTheory.xml" />
+    <Content Include="resources\MenuImg\MenuDefiniteIntegral.png" />
+    <Content Include="resources\MenuImg\MenuIndefinitelIntegral.png" />
+    <Content Include="resources\TheConceptOfIndefiniteIntegral\Example1.png" />
+    <Content Include="resources\TheConceptOfIndefiniteIntegral\Example2.png" />
+    <Content Include="resources\TheConceptOfIndefiniteIntegral\Example3.png" />
+    <Content Include="resources\TheConceptOfIndefiniteIntegral\Example4.png" />
+    <Content Include="TheoryPages\1.TheConceptOfIndefiniteIntegral.aspx" />
+    <Content Include="TheoryPages\10.SubstitutionOfEuler.aspx" />
+    <Content Include="TheoryPages\11.ConceptDefiniteIntegral.aspx" />
+    <Content Include="TheoryPages\12.ClassesIntegrableFunctions.aspx" />
+    <Content Include="TheoryPages\13.PropertiesDefiniteIntegral.aspx" />
+    <Content Include="TheoryPages\14.NewtonLeibnizFormula.aspx" />
+    <Content Include="TheoryPages\15.ChangeVariable.aspx" />
+    <Content Include="TheoryPages\16.IntegrationByParts.aspx" />
+    <Content Include="TheoryPages\17.EvenOddFunctions.aspx" />
+    <Content Include="TheoryPages\18.ImproperIntegral1.aspx" />
+    <Content Include="TheoryPages\19.ImproperIntegral2.aspx" />
+    <Content Include="TheoryPages\2.DirectIntegration.aspx" />
+    <Content Include="TheoryPages\3.MethodOfReplacingVariable.aspx" />
+    <Content Include="TheoryPages\4.IntegrationByParts.aspx" />
+    <Content Include="TheoryPages\5.IntegrationOfFractions.aspx" />
+    <Content Include="TheoryPages\6.SimplestFractions.aspx" />
+    <Content Include="TheoryPages\7.TrigonometricExpressions.aspx" />
+    <Content Include="TheoryPages\8.FractionalLinearIrrationalities.aspx" />
+    <Content Include="TheoryPages\9.BinomialDifferentials.aspx" />
     <Content Include="TheoryPages\TemplateTheoryPage.aspx" />
     <Content Include="TheoryPages\TestFile.txt" />
     <Content Include="Web.config" />
@@ -148,6 +173,139 @@
       <DependentUpon>RegistrationPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="resources\Class\ReadXmlAndResponceWrite.cs" />
+    <Compile Include="TheoryPages\1.TheConceptOfIndefiniteIntegral.aspx.cs">
+      <DependentUpon>1.TheConceptOfIndefiniteIntegral.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\1.TheConceptOfIndefiniteIntegral.aspx.designer.cs">
+      <DependentUpon>1.TheConceptOfIndefiniteIntegral.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\10.SubstitutionOfEuler.aspx.cs">
+      <DependentUpon>10.SubstitutionOfEuler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\10.SubstitutionOfEuler.aspx.designer.cs">
+      <DependentUpon>10.SubstitutionOfEuler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\11.ConceptDefiniteIntegral.aspx.cs">
+      <DependentUpon>11.ConceptDefiniteIntegral.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\11.ConceptDefiniteIntegral.aspx.designer.cs">
+      <DependentUpon>11.ConceptDefiniteIntegral.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\12.ClassesIntegrableFunctions.aspx.cs">
+      <DependentUpon>12.ClassesIntegrableFunctions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\12.ClassesIntegrableFunctions.aspx.designer.cs">
+      <DependentUpon>12.ClassesIntegrableFunctions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\13.PropertiesDefiniteIntegral.aspx.cs">
+      <DependentUpon>13.PropertiesDefiniteIntegral.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\13.PropertiesDefiniteIntegral.aspx.designer.cs">
+      <DependentUpon>13.PropertiesDefiniteIntegral.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\14.NewtonLeibnizFormula.aspx.cs">
+      <DependentUpon>14.NewtonLeibnizFormula.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\14.NewtonLeibnizFormula.aspx.designer.cs">
+      <DependentUpon>14.NewtonLeibnizFormula.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\15.ChangeVariable.aspx.cs">
+      <DependentUpon>15.ChangeVariable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\15.ChangeVariable.aspx.designer.cs">
+      <DependentUpon>15.ChangeVariable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\16.IntegrationByParts.aspx.cs">
+      <DependentUpon>16.IntegrationByParts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\16.IntegrationByParts.aspx.designer.cs">
+      <DependentUpon>16.IntegrationByParts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\17.EvenOddFunctions.aspx.cs">
+      <DependentUpon>17.EvenOddFunctions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\17.EvenOddFunctions.aspx.designer.cs">
+      <DependentUpon>17.EvenOddFunctions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\18.ImproperIntegral1.aspx.cs">
+      <DependentUpon>18.ImproperIntegral1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\18.ImproperIntegral1.aspx.designer.cs">
+      <DependentUpon>18.ImproperIntegral1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\19.ImproperIntegral2.aspx.cs">
+      <DependentUpon>19.ImproperIntegral2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\19.ImproperIntegral2.aspx.designer.cs">
+      <DependentUpon>19.ImproperIntegral2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\2.DirectIntegration.aspx.cs">
+      <DependentUpon>2.DirectIntegration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\2.DirectIntegration.aspx.designer.cs">
+      <DependentUpon>2.DirectIntegration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\3.MethodOfReplacingVariable.aspx.cs">
+      <DependentUpon>3.MethodOfReplacingVariable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\3.MethodOfReplacingVariable.aspx.designer.cs">
+      <DependentUpon>3.MethodOfReplacingVariable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\4.IntegrationByParts.aspx.cs">
+      <DependentUpon>4.IntegrationByParts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\4.IntegrationByParts.aspx.designer.cs">
+      <DependentUpon>4.IntegrationByParts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\5.IntegrationOfFractions.aspx.cs">
+      <DependentUpon>5.IntegrationOfFractions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\5.IntegrationOfFractions.aspx.designer.cs">
+      <DependentUpon>5.IntegrationOfFractions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\6.SimplestFractions.aspx.cs">
+      <DependentUpon>6.SimplestFractions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\6.SimplestFractions.aspx.designer.cs">
+      <DependentUpon>6.SimplestFractions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\7.TrigonometricExpressions.aspx.cs">
+      <DependentUpon>7.TrigonometricExpressions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\7.TrigonometricExpressions.aspx.designer.cs">
+      <DependentUpon>7.TrigonometricExpressions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\8.FractionalLinearIrrationalities.aspx.cs">
+      <DependentUpon>8.FractionalLinearIrrationalities.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\8.FractionalLinearIrrationalities.aspx.designer.cs">
+      <DependentUpon>8.FractionalLinearIrrationalities.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\9.BinomialDifferentials.aspx.cs">
+      <DependentUpon>9.BinomialDifferentials.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\9.BinomialDifferentials.aspx.designer.cs">
+      <DependentUpon>9.BinomialDifferentials.aspx</DependentUpon>
+    </Compile>
     <Compile Include="TheoryPages\TemplateTheoryPage.aspx.cs">
       <DependentUpon>TemplateTheoryPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
