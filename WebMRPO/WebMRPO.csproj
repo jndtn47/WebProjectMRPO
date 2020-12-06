@@ -119,8 +119,8 @@
     <Content Include="ProgramPages\TestFile.txt" />
     <Content Include="RegistrationPage.aspx" />
     <Content Include="resources\ListPagesTheory.xml" />
-    <Content Include="resources\MenuImg\MenuDefiniteIntegral.png" />
-    <Content Include="resources\MenuImg\MenuIndefinitelIntegral.png" />
+    <Content Include="resources\MenuImg\DefiniteIntegralMenu.png" />
+    <Content Include="resources\MenuImg\IndefinitelIntegralMenu.png" />
     <Content Include="resources\TheConceptOfIndefiniteIntegral\Example1.png" />
     <Content Include="resources\TheConceptOfIndefiniteIntegral\Example2.png" />
     <Content Include="resources\TheConceptOfIndefiniteIntegral\Example3.png" />

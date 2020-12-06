@@ -52,7 +52,7 @@
     width: 100%;
     position: absolute;
     top: 90%;
-    height: 15%;
+    height: 40px;
 }
 
 table {
@@ -78,7 +78,7 @@ th {
 
 
 td {
-    background: #FFFAF0;
+    background-color: white;
     color: #669;
     padding: 9px 8px;
     transition: .3s linear;

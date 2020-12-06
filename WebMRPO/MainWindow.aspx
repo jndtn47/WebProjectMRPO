@@ -9,11 +9,12 @@
     <title>3.1 ПМИ</title>
     <style>
    .scale {
-    transition: 1s; /* Время эффекта */
+    transition: 1s;
    }
    .scale:hover {
-    transform: scale(1.2); /* Увеличиваем масштаб */
+    transform: scale(1.1);
    }
+        #theory {overflow-y: auto; }
   </style>
 </head>
 <body>
@@ -35,9 +36,9 @@
                     <table>
                         <tr>
                             <td>
-                              <a href="TheoryPages/1.TheConceptOfIndefiniteIntegral.aspx"> <img src="resources/MenuImg/MenuIndefinitelIntegral.png" width="250" height="150" class="scale"/></a>
+                              <a href="TheoryPages/1.TheConceptOfIndefiniteIntegral.aspx"> <img src="resources/MenuImg/IndefinitelIntegralMenu.png" width="250" height="150" class="scale"/></a>
                             <td>
-                               <a href="TheoryPages/11.ConceptDefiniteIntegral.aspx"><img src="resources/MenuImg/MenuDefiniteIntegral.png" width="250" height="150" class="scale" /></a>  
+                               <a href="TheoryPages/11.ConceptDefiniteIntegral.aspx"><img src="resources/MenuImg/DefiniteIntegralMenu.png" width="250" height="150" class="scale" /></a>  
                             </td>
                         </tr>
                     </table>
@@ -48,7 +49,7 @@
                     </div>
                 </div>
             </div>
-            <div id="footer">Подвал</div>
+            <div id="footer"></div>
         </div>
     </form>
 </body>
