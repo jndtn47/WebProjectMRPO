@@ -118,13 +118,86 @@
     <Content Include="MainWindow.aspx" />
     <Content Include="ProgramPages\TestFile.txt" />
     <Content Include="RegistrationPage.aspx" />
+    <Content Include="resources\ComplexNumber\ComplexNumber1.jpg" />
+    <Content Include="resources\Determinant\Determinant1.PNG" />
+    <Content Include="resources\Determinant\Determinant2.PNG" />
+    <Content Include="resources\Determinant\Determinant3.PNG" />
+    <Content Include="resources\Determinant\Determinant4.PNG" />
+    <Content Include="resources\Determinant\Determinant5.PNG" />
+    <Content Include="resources\Determinant\Determinant56.PNG" />
+    <Content Include="resources\Ellipse\Ellipse.PNG" />
+    <Content Include="resources\Ellipse\Ellipse1.PNG" />
+    <Content Include="resources\EquationOfTheOPlane\EquationOfThePlane1.PNG" />
+    <Content Include="resources\EquationOfTheOPlane\EquationOfThePlane10.PNG" />
+    <Content Include="resources\EquationOfTheOPlane\EquationOfThePlane2.PNG" />
+    <Content Include="resources\EquationOfTheOPlane\EquationOfThePlane3.PNG" />
+    <Content Include="resources\EquationOfTheOPlane\EquationOfThePlane4.PNG" />
+    <Content Include="resources\EquationOfTheOPlane\EquationOfThePlane5.PNG" />
+    <Content Include="resources\EquationOfTheOPlane\EquationOfThePlane6.PNG" />
+    <Content Include="resources\EquationOfTheOPlane\EquationOfThePlane7.PNG" />
+    <Content Include="resources\EquationOfTheOPlane\EquationOfThePlane8.PNG" />
+    <Content Include="resources\EquationOfTheOPlane\EquationOfThePlane9.PNG" />
+    <Content Include="resources\FindingDerivatives\fm10.png" />
+    <Content Include="resources\Hyperbole\Hyperbole1.PNG" />
+    <Content Include="resources\Hyperbole\Hyperbole2.PNG" />
+    <Content Include="resources\InverseFunction\funkcia_obr.png" />
+    <Content Include="resources\InverseMatrix\InverseMatrix1.PNG" />
+    <Content Include="resources\InverseMatrix\InverseMatrix2.PNG" />
+    <Content Include="resources\InverseMatrix\InverseMatrix3.PNG" />
+    <Content Include="resources\InverseMatrix\InverseMatrix4.png" />
+    <Content Include="resources\Limits\wQL8Kd_dkn8.jpg" />
+    <Content Include="resources\Limits\WZYpWDZbroA.jpg" />
     <Content Include="resources\ListPagesTheory.xml" />
+    <Content Include="resources\Matrices\Matrices.png" />
+    <Content Include="resources\Matrices\Matrices1.png" />
+    <Content Include="resources\Matrices\Matrices2.png" />
+    <Content Include="resources\Matrices\Matrices3.png" />
+    <Content Include="resources\Matrices\Matrices4.png" />
+    <Content Include="resources\MeaningoftheDerivative\i.jpg" />
     <Content Include="resources\MenuImg\DefiniteIntegralMenu.png" />
     <Content Include="resources\MenuImg\IndefinitelIntegralMenu.png" />
+    <Content Include="resources\Parabola\Parabola1.PNG" />
+    <Content Include="resources\Parabola\Parabola2.PNG" />
+    <Content Include="resources\Planties\Planties1.jpg" />
+    <Content Include="resources\Planties\Planties2.jpg" />
+    <Content Include="resources\Planties\Planties3.jpg" />
+    <Content Include="resources\Planties\Planties4.jpg" />
+    <Content Include="resources\Planties\Planties5.jpg" />
+    <Content Include="resources\Planties\Planties6.jpg" />
+    <Content Include="resources\PolarCoordinates\PC1.PNG" />
+    <Content Include="resources\PolarCoordinates\PC2.PNG" />
+    <Content Include="resources\PolarCoordinates\PC3.PNG" />
+    <Content Include="resources\PolarCoordinates\PC4.png" />
+    <Content Include="resources\PolarCoordinates\PC5.png" />
+    <Content Include="resources\PolarCoordinates\PC6.png" />
+    <Content Include="resources\ProductOfVectors\PVector1.PNG" />
+    <Content Include="resources\ProductOfVectors\PVector2.PNG" />
+    <Content Include="resources\ProductOfVectors\PVector3.PNG" />
+    <Content Include="resources\ProductOfVectors\PVector4.PNG" />
+    <Content Include="resources\Rank\Rank1.PNG" />
+    <Content Include="resources\Rank\Rank2.PNG" />
+    <Content Include="resources\Rank\Rank3.PNG" />
+    <Content Include="resources\Rank\Rank4.PNG" />
+    <Content Include="resources\RelationShip\Снимок.PNG" />
+    <Content Include="resources\ScalarProductOfVectors\Scalar1.PNG" />
+    <Content Include="resources\ScalarProductOfVectors\Scalar2.PNG" />
+    <Content Include="resources\ScalarProductOfVectors\Scalar3.PNG" />
+    <Content Include="resources\Straight\Straight1.PNG" />
+    <Content Include="resources\SurjectionInjectionBijection\SurjectionInjectionBijection.png" />
     <Content Include="resources\TheConceptOfIndefiniteIntegral\Example1.png" />
     <Content Include="resources\TheConceptOfIndefiniteIntegral\Example2.png" />
     <Content Include="resources\TheConceptOfIndefiniteIntegral\Example3.png" />
     <Content Include="resources\TheConceptOfIndefiniteIntegral\Example4.png" />
+    <Content Include="resources\Vector\Vector1.png" />
+    <Content Include="resources\Vector\Vector2.png" />
+    <Content Include="resources\Vector\Vector3.png" />
+    <Content Include="resources\Vector\Vector4.png" />
+    <Content Include="resources\Vector\Vector5.PNG" />
+    <Content Include="resources\Vector\Vektor10.PNG" />
+    <Content Include="resources\Vector\Vektor11.png" />
+    <Content Include="resources\Vector\Vektor6.PNG" />
+    <Content Include="resources\Vector\Vektor7.PNG" />
+    <Content Include="resources\Vector\Vektor9.PNG" />
     <Content Include="TheoryPages\1.TheConceptOfIndefiniteIntegral.aspx" />
     <Content Include="TheoryPages\10.SubstitutionOfEuler.aspx" />
     <Content Include="TheoryPages\11.ConceptDefiniteIntegral.aspx" />
@@ -144,8 +217,42 @@
     <Content Include="TheoryPages\7.TrigonometricExpressions.aspx" />
     <Content Include="TheoryPages\8.FractionalLinearIrrationalities.aspx" />
     <Content Include="TheoryPages\9.BinomialDifferentials.aspx" />
+    <Content Include="TheoryPages\CauchyСriterionFor.aspx" />
+    <Content Include="TheoryPages\ComplexFunction.aspx" />
+    <Content Include="TheoryPages\ComplexNumber.aspx" />
+    <Content Include="TheoryPages\DefinitionOfHeine.aspx" />
+    <Content Include="TheoryPages\DefinitionOfKoshi.aspx" />
+    <Content Include="TheoryPages\Determinant.aspx" />
+    <Content Include="TheoryPages\Ellipse.aspx" />
+    <Content Include="TheoryPages\EquationOfThePlane.aspx" />
+    <Content Include="TheoryPages\FindingDerivatives.aspx" />
+    <Content Include="TheoryPages\GreatFeatures.aspx" />
+    <Content Include="TheoryPages\Higher-orderDerivatives.aspx" />
+    <Content Include="TheoryPages\Hyperbole.aspx" />
+    <Content Include="TheoryPages\InverseFunction.aspx" />
+    <Content Include="TheoryPages\InverseMatrix.aspx" />
+    <Content Include="TheoryPages\LimitOfAContinuousFunction.aspx" />
+    <Content Include="TheoryPages\LimitTheoremForComplexFunction.aspx" />
+    <Content Include="TheoryPages\Matrices.aspx" />
+    <Content Include="TheoryPages\MeaningoftheDerivative.aspx" />
+    <Content Include="TheoryPages\Parabola.aspx" />
+    <Content Include="TheoryPages\Plenties.aspx" />
+    <Content Include="TheoryPages\PolarCoordinates.aspx" />
+    <Content Include="TheoryPages\ProductOfVectors.aspx" />
+    <Content Include="TheoryPages\PropertiesDeterminant.aspx" />
+    <Content Include="TheoryPages\PropertiesMatrices.aspx" />
+    <Content Include="TheoryPages\PropertiesOfInfinitelyLargeFunctions.aspx" />
+    <Content Include="TheoryPages\Rank.aspx" />
+    <Content Include="TheoryPages\RelationshipBetweenLargeandSmallFunction.aspx" />
+    <Content Include="TheoryPages\RemarkableLimits.aspx" />
+    <Content Include="TheoryPages\ScalarProductOfVectors.aspx" />
+    <Content Include="TheoryPages\Straight.aspx" />
+    <Content Include="TheoryPages\StraightLineInSpace.aspx" />
+    <Content Include="TheoryPages\SurjectionInjectionBijection.aspx" />
     <Content Include="TheoryPages\TemplateTheoryPage.aspx" />
-    <Content Include="TheoryPages\TestFile.txt" />
+    <Content Include="TheoryPages\TheDefinitionoftheDerivative.aspx" />
+    <Content Include="TheoryPages\ThePropertiesOfTheLimit.aspx" />
+    <Content Include="TheoryPages\Vector.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -306,12 +413,257 @@
     <Compile Include="TheoryPages\9.BinomialDifferentials.aspx.designer.cs">
       <DependentUpon>9.BinomialDifferentials.aspx</DependentUpon>
     </Compile>
+    <Compile Include="TheoryPages\CauchyСriterionFor.aspx.cs">
+      <DependentUpon>CauchyСriterionFor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\CauchyСriterionFor.aspx.designer.cs">
+      <DependentUpon>CauchyСriterionFor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\ComplexFunction.aspx.cs">
+      <DependentUpon>ComplexFunction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\ComplexFunction.aspx.designer.cs">
+      <DependentUpon>ComplexFunction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\ComplexNumber.aspx.cs">
+      <DependentUpon>ComplexNumber.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\ComplexNumber.aspx.designer.cs">
+      <DependentUpon>ComplexNumber.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\DefinitionOfHeine.aspx.cs">
+      <DependentUpon>DefinitionOfHeine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\DefinitionOfHeine.aspx.designer.cs">
+      <DependentUpon>DefinitionOfHeine.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\DefinitionOfKoshi.aspx.cs">
+      <DependentUpon>DefinitionOfKoshi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\DefinitionOfKoshi.aspx.designer.cs">
+      <DependentUpon>DefinitionOfKoshi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\Determinant.aspx.cs">
+      <DependentUpon>Determinant.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\Determinant.aspx.designer.cs">
+      <DependentUpon>Determinant.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\Ellipse.aspx.cs">
+      <DependentUpon>Ellipse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\Ellipse.aspx.designer.cs">
+      <DependentUpon>Ellipse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\EquationOfThePlane.aspx.cs">
+      <DependentUpon>EquationOfThePlane.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\EquationOfThePlane.aspx.designer.cs">
+      <DependentUpon>EquationOfThePlane.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\FindingDerivatives.aspx.cs">
+      <DependentUpon>FindingDerivatives.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\FindingDerivatives.aspx.designer.cs">
+      <DependentUpon>FindingDerivatives.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\GreatFeatures.aspx.cs">
+      <DependentUpon>GreatFeatures.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\GreatFeatures.aspx.designer.cs">
+      <DependentUpon>GreatFeatures.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\Higher-orderDerivatives.aspx.cs">
+      <DependentUpon>Higher-orderDerivatives.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\Higher-orderDerivatives.aspx.designer.cs">
+      <DependentUpon>Higher-orderDerivatives.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\Hyperbole.aspx.cs">
+      <DependentUpon>Hyperbole.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\Hyperbole.aspx.designer.cs">
+      <DependentUpon>Hyperbole.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\InverseFunction.aspx.cs">
+      <DependentUpon>InverseFunction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\InverseFunction.aspx.designer.cs">
+      <DependentUpon>InverseFunction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\InverseMatrix.aspx.cs">
+      <DependentUpon>InverseMatrix.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\InverseMatrix.aspx.designer.cs">
+      <DependentUpon>InverseMatrix.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\LimitOfAContinuousFunction.aspx.cs">
+      <DependentUpon>LimitOfAContinuousFunction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\LimitOfAContinuousFunction.aspx.designer.cs">
+      <DependentUpon>LimitOfAContinuousFunction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\LimitTheoremForComplexFunction.aspx.cs">
+      <DependentUpon>LimitTheoremForComplexFunction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\LimitTheoremForComplexFunction.aspx.designer.cs">
+      <DependentUpon>LimitTheoremForComplexFunction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\Matrices.aspx.cs">
+      <DependentUpon>Matrices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\Matrices.aspx.designer.cs">
+      <DependentUpon>Matrices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\MeaningoftheDerivative.aspx.cs">
+      <DependentUpon>MeaningoftheDerivative.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\MeaningoftheDerivative.aspx.designer.cs">
+      <DependentUpon>MeaningoftheDerivative.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\Parabola.aspx.cs">
+      <DependentUpon>Parabola.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\Parabola.aspx.designer.cs">
+      <DependentUpon>Parabola.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\Plenties.aspx.cs">
+      <DependentUpon>Plenties.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\Plenties.aspx.designer.cs">
+      <DependentUpon>Plenties.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\PolarCoordinates.aspx.cs">
+      <DependentUpon>PolarCoordinates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\PolarCoordinates.aspx.designer.cs">
+      <DependentUpon>PolarCoordinates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\ProductOfVectors.aspx.cs">
+      <DependentUpon>ProductOfVectors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\ProductOfVectors.aspx.designer.cs">
+      <DependentUpon>ProductOfVectors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\PropertiesDeterminant.aspx.cs">
+      <DependentUpon>PropertiesDeterminant.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\PropertiesDeterminant.aspx.designer.cs">
+      <DependentUpon>PropertiesDeterminant.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\PropertiesMatrices.aspx.cs">
+      <DependentUpon>PropertiesMatrices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\PropertiesMatrices.aspx.designer.cs">
+      <DependentUpon>PropertiesMatrices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\PropertiesOfInfinitelyLargeFunctions.aspx.cs">
+      <DependentUpon>PropertiesOfInfinitelyLargeFunctions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\PropertiesOfInfinitelyLargeFunctions.aspx.designer.cs">
+      <DependentUpon>PropertiesOfInfinitelyLargeFunctions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\Rank.aspx.cs">
+      <DependentUpon>Rank.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\Rank.aspx.designer.cs">
+      <DependentUpon>Rank.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\RelationshipBetweenLargeandSmallFunction.aspx.cs">
+      <DependentUpon>RelationshipBetweenLargeandSmallFunction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\RelationshipBetweenLargeandSmallFunction.aspx.designer.cs">
+      <DependentUpon>RelationshipBetweenLargeandSmallFunction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\RemarkableLimits.aspx.cs">
+      <DependentUpon>RemarkableLimits.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\RemarkableLimits.aspx.designer.cs">
+      <DependentUpon>RemarkableLimits.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\ScalarProductOfVectors.aspx.cs">
+      <DependentUpon>ScalarProductOfVectors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\ScalarProductOfVectors.aspx.designer.cs">
+      <DependentUpon>ScalarProductOfVectors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\Straight.aspx.cs">
+      <DependentUpon>Straight.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\Straight.aspx.designer.cs">
+      <DependentUpon>Straight.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\StraightLineInSpace.aspx.cs">
+      <DependentUpon>StraightLineInSpace.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\StraightLineInSpace.aspx.designer.cs">
+      <DependentUpon>StraightLineInSpace.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\SurjectionInjectionBijection.aspx.cs">
+      <DependentUpon>SurjectionInjectionBijection.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\SurjectionInjectionBijection.aspx.designer.cs">
+      <DependentUpon>SurjectionInjectionBijection.aspx</DependentUpon>
+    </Compile>
     <Compile Include="TheoryPages\TemplateTheoryPage.aspx.cs">
       <DependentUpon>TemplateTheoryPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="TheoryPages\TemplateTheoryPage.aspx.designer.cs">
       <DependentUpon>TemplateTheoryPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\TheDefinitionoftheDerivative.aspx.cs">
+      <DependentUpon>TheDefinitionoftheDerivative.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\TheDefinitionoftheDerivative.aspx.designer.cs">
+      <DependentUpon>TheDefinitionoftheDerivative.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\ThePropertiesOfTheLimit.aspx.cs">
+      <DependentUpon>ThePropertiesOfTheLimit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\ThePropertiesOfTheLimit.aspx.designer.cs">
+      <DependentUpon>ThePropertiesOfTheLimit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoryPages\Vector.aspx.cs">
+      <DependentUpon>Vector.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryPages\Vector.aspx.designer.cs">
+      <DependentUpon>Vector.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

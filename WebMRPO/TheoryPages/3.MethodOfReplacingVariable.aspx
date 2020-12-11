@@ -6,7 +6,7 @@
 <head runat="server">
     <link rel="stylesheet" href="../css/StylePageTheory.css" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title></title>
+    <title>Метод замены переменной</title>
      <style>
         #workspace{
             height: 1600px;

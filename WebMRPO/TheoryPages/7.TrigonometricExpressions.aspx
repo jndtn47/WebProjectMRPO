@@ -6,7 +6,7 @@
 <head runat="server">
     <link rel="stylesheet" href="../css/StylePageTheory.css" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>3.1 ПМИ</title>
+    <title>Интегрирование тригонометрических выражений</title>
     <style>
         #workspace{
             height: 3400px;

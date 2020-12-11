@@ -23,17 +23,45 @@
     <article url="/TheoryPages/18.ImproperIntegral1.aspx">Понятие несобственного интеграла первого рода</article>
     <article url="/TheoryPages/19.ImproperIntegral2.aspx">Понятие несобственного интеграла второго рода</article>
   </theme>
-  <theme name="Тема 2">
-    <article url="~/AuthorizationPage.aspx">Статья 1</article>
-    <article url="url2">Статья 2</article>
-    <article url="url3">Статья 3</article>
-    <article url="url4">Статья 4</article>
+  <theme name="Аналитическая геометрия">
+    <article url="/TheoryPages/Ellipse.aspx">Линии второго порядка. Эллипс</article>
+    <article url="/TheoryPages/EquationOfThePlane.aspx">Уравнение плоскости</article>
+    <article url="/TheoryPages/Hyperbole.aspx">Гипербола и её каноническое уравнение</article>
+    <article url="/TheoryPages/Parabola.aspx">Парабола и её каноническое уравнение</article>
+    <article url="/TheoryPages/PolarCoordinates.aspx">Полярная система координат</article>
+    <article url="/TheoryPages/Vector.aspx">Вектор</article>
+    <article url="/TheoryPages/ProductOfVectors.aspx">Произведение векторов</article>
+    <article url="/TheoryPages/ScalarProductOfVectors.aspx">Скалярное произведение векторов</article>
+    <article url="/TheoryPages/Straight.aspx">Уравнение прямой на плоскости. Направляющий вектор. Вектор нормали</article>
+    <article url="/TheoryPages/StraightLineInSpace.aspx">Прямая в пространстве</article>
   </theme>
-  <theme name="Тема 3">
-    <article url="url1">Статья 1</article>
-    <article url="url2">Статья 2</article>
-    <article url="url3">Статья 3</article>
-    <article url="url4">Статья 4</article>
-    <article url="url5">Статья 5</article>
+  <theme name="Алгебра">
+    <article url="url1">Множества и действия над множествами</article>
+    <article url="ComplexNumber.aspx">Комплексный числа</article>
+    <article url="/TheoryPages/Matrices.aspx">Матрицы и действия над ними</article>
+    <article url="/TheoryPages/Determinant.aspx">Определитель</article>
+    <article url="/TheoryPages/PropertiesDeterminant.aspx">Свойства определителя</article>
+    <article url="/TheoryPages/PropertiesMatrices.aspx">Свойства операций матрицами</article>
+    <article url="/TheoryPages/InverseMatrix.aspx">Обратная матрица</article>
+    <article url="/TheoryPages/Rank.aspx">Ранг матриц</article>
+    <article url="/TheoryPages/SurjectionInjectionBijection.aspx">Инъекция. Сюръекция. Биекция</article>
+  </theme>
+  <theme name="Математический анализ">
+    <article url="/TheoryPages/DefinitionOfKoshi.aspx">Определение предела по Коши</article>
+    <article url="/TheoryPages/DefinitionOfHeine.aspx">Определение предела по Гейне</article>
+    <article url="/TheoryPages/CauchyСriterionFor.aspx">Критерий Коши существования предела функции</article>
+    <article url="/TheoryPages/TheDefinitionoftheDerivative.aspx">Производная сложной функции</article>
+    <article url="/TheoryPages/FindingDerivatives.aspx">Правила нахождения производных</article>
+    <article url="/TheoryPages/GreatFeatures.aspx">Бесконечно малые и большие функции</article>
+    <article url="/TheoryPages/Higher-orderDerivatives.aspx">Производные и дифференциалы высших порядков</article>
+    <article url="~/TheoryPages/InverseFunction.aspx">Производная обратной функции</article>
+    <article url="~/TheoryPages/LimitOfAContinuousFunction.aspx">Теорема о пределе непрерывной функции от функции</article>
+    <article url="~/TheoryPages/LimitTheoremForComplexFunction.aspx">Предел сложной функциикций</article>
+    <article url="~/TheoryPages/MeaningoftheDerivative.aspx">Геометрический и физический смысл производной</article>
+    <article url="~/TheoryPages/PropertiesOfInfinitelyLargeFunctions.aspx">Свойства бесконечно больших функций</article>
+    <article url="~/TheoryPages/RelationshipBetweenLargeandSmallFunction.aspx">Связь между бесконечно большими и бесконечно малыми функциями</article>
+    <article url="~/TheoryPages/RemarkableLimits.aspx">Замечательные пределы</article>
+    <article url="~/TheoryPages/TheDefinitionoftheDerivative.aspx">Определение производной</article>
+    <article url="~/TheoryPages/ThePropertiesOfTheLimit.aspx">Арифметические свойства предела функции</article>
   </theme>
 </list>
