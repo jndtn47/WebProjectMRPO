@@ -9,7 +9,7 @@
     <title>Свойства определитель</title>
     <style>
         #workspace{
-            height: 2500px;
+            height: 2000px;
         }
         a {
             color: black;

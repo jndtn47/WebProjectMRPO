@@ -9,7 +9,7 @@
     <title>Множества. Операции над множествами.</title>
     <style>
         #workspace{
-            height: 3800px;
+            height: 4200px;
         }
         a {
             color: black;

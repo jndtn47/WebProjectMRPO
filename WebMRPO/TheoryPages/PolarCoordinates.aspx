@@ -9,7 +9,7 @@
     <title>Полярные координаты</title>
     <style>
         #workspace{
-            height: 3300px;
+            height: 3800px;
         }
         a {
             color: black;

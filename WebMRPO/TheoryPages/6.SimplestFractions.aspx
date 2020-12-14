@@ -6,10 +6,10 @@
 <head runat="server">
     <link rel="stylesheet" href="../css/StylePageTheory.css" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>>Интегрирование простейших дробей<title>
+    <title>Интегрирование простейших дробей</title>
     <style>
         #workspace{
-            height: 2500px;
+            height: 2350px;
         }
         a {
             color: black;

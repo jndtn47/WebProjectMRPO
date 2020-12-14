@@ -45,7 +45,7 @@
             </body>
 </div>
 </div>
-<div id="footer">Подвал</div>
+<div id="footer"></div>
 </div>
         </div>
     </form>

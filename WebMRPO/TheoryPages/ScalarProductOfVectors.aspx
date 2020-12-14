@@ -9,7 +9,7 @@
     <title>Скалярное произведение векторов</title>
     <style>
         #workspace{
-            height: 2500px;
+            height: 3100px;
         }
         a {
             color: black;

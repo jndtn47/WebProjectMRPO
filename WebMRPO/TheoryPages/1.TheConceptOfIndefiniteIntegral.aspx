@@ -9,7 +9,7 @@
     <title>Понятие первообразной функции и неопределенного интеграла</title>
     <style>
         #workspace{
-            height: 2200px;
+            height: 2100px;
         }
         a {
             color: black;

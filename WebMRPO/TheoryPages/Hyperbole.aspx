@@ -9,7 +9,7 @@
     <title>Гипербола и её каноническое уравнение</title>
     <style>
         #workspace{
-            height: 2500px;
+            height: 2800px;
         }
         a {
             color: black;

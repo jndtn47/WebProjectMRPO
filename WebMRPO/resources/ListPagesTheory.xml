@@ -37,7 +37,7 @@
   </theme>
   <theme name="Алгебра">
     <article url="url1">Множества и действия над множествами</article>
-    <article url="ComplexNumber.aspx">Комплексный числа</article>
+    <article url="/TheoryPages/ComplexNumber.aspx">Комплексный числа</article>
     <article url="/TheoryPages/Matrices.aspx">Матрицы и действия над ними</article>
     <article url="/TheoryPages/Determinant.aspx">Определитель</article>
     <article url="/TheoryPages/PropertiesDeterminant.aspx">Свойства определителя</article>
@@ -54,14 +54,14 @@
     <article url="/TheoryPages/FindingDerivatives.aspx">Правила нахождения производных</article>
     <article url="/TheoryPages/GreatFeatures.aspx">Бесконечно малые и большие функции</article>
     <article url="/TheoryPages/Higher-orderDerivatives.aspx">Производные и дифференциалы высших порядков</article>
-    <article url="~/TheoryPages/InverseFunction.aspx">Производная обратной функции</article>
-    <article url="~/TheoryPages/LimitOfAContinuousFunction.aspx">Теорема о пределе непрерывной функции от функции</article>
-    <article url="~/TheoryPages/LimitTheoremForComplexFunction.aspx">Предел сложной функциикций</article>
-    <article url="~/TheoryPages/MeaningoftheDerivative.aspx">Геометрический и физический смысл производной</article>
-    <article url="~/TheoryPages/PropertiesOfInfinitelyLargeFunctions.aspx">Свойства бесконечно больших функций</article>
-    <article url="~/TheoryPages/RelationshipBetweenLargeandSmallFunction.aspx">Связь между бесконечно большими и бесконечно малыми функциями</article>
-    <article url="~/TheoryPages/RemarkableLimits.aspx">Замечательные пределы</article>
-    <article url="~/TheoryPages/TheDefinitionoftheDerivative.aspx">Определение производной</article>
-    <article url="~/TheoryPages/ThePropertiesOfTheLimit.aspx">Арифметические свойства предела функции</article>
+    <article url="/TheoryPages/InverseFunction.aspx">Производная обратной функции</article>
+    <article url="/TheoryPages/LimitOfAContinuousFunction.aspx">Теорема о пределе непрерывной функции от функции</article>
+    <article url="/TheoryPages/LimitTheoremForComplexFunction.aspx">Предел сложной функциикций</article>
+    <article url="/TheoryPages/MeaningoftheDerivative.aspx">Геометрический и физический смысл производной</article>
+    <article url="/TheoryPages/PropertiesOfInfinitelyLargeFunctions.aspx">Свойства бесконечно больших функций</article>
+    <article url="/TheoryPages/RelationshipBetweenLargeandSmallFunction.aspx">Связь между бесконечно большими и бесконечно малыми функциями</article>
+    <article url="/TheoryPages/RemarkableLimits.aspx">Замечательные пределы</article>
+    <article url="/TheoryPages/TheDefinitionoftheDerivative.aspx">Определение производной</article>
+    <article url="/TheoryPages/ThePropertiesOfTheLimit.aspx">Арифметические свойства предела функции</article>
   </theme>
 </list>

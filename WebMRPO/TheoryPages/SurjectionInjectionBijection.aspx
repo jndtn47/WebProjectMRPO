@@ -9,7 +9,7 @@
     <title>Сюръекция, инъекция и биекция</title>
     <style>
         #workspace{
-            height: 25000px;
+            height: 1500px;
         }
         a {
             color: black;

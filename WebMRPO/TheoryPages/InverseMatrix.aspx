@@ -9,7 +9,7 @@
     <title>Обратная Матрица.</title>
     <style>
         #workspace{
-            height: 3200px;
+            height: 3700px;
         }
         a {
             color: black;
@@ -64,7 +64,7 @@
 
                 </div>
             </div>
-            <div id="footer">Подвал</div>
+            <div id="footer"></div>
         </div>
     </form>
 </body>

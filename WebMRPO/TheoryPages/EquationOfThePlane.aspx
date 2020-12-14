@@ -9,7 +9,7 @@
     <title>Уравнение плоскости.</title>
     <style>
         #workspace{
-            height: 5700px;
+            height: 5500px;
         }
         a {
             color: black;

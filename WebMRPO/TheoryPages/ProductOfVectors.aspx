@@ -9,7 +9,7 @@
     <title>Произведение векторов</title>
     <style>
         #workspace{
-            height: 3500px;
+            height: 3600px;
         }
         a {
             color: black;

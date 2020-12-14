@@ -8,7 +8,7 @@ using WebMRPO.resources.Class;
 
 namespace WebMRPO.TheoryPages
 {
-    public partial class Cut : System.Web.UI.Page
+    public partial class Straight : System.Web.UI.Page
     {
         public string htmlArrayList = "";
         ReadXmlAndResponceWrite createList = new ReadXmlAndResponceWrite();
