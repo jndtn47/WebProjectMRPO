@@ -36,7 +36,7 @@
     <article url="/TheoryPages/StraightLineInSpace.aspx">Прямая в пространстве</article>
   </theme>
   <theme name="Алгебра">
-    <article url="url1">Множества и действия над множествами</article>
+    <article url="/TheoryPages/Plenties.aspx">Множества и действия над множествами</article>
     <article url="/TheoryPages/ComplexNumber.aspx">Комплексный числа</article>
     <article url="/TheoryPages/Matrices.aspx">Матрицы и действия над ними</article>
     <article url="/TheoryPages/Determinant.aspx">Определитель</article>
