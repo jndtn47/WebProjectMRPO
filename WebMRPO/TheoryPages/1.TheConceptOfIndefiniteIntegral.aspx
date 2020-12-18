@@ -1,4 +1,4 @@
-﻿<%@ page language="C#" autoeventwireup="true" codebehind="1.TheConceptOfIndefiniteIntegral.aspx.cs" inherits="WebMRPO.TheoryPages.TheConceptOfIndefiniteIntegral" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="1.TheConceptOfIndefiniteIntegral.aspx.cs" Inherits="WebMRPO.TheoryPages.TheConceptOfIndefiniteIntegral" %>
 
 <!DOCTYPE html>
 
@@ -8,11 +8,20 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Понятие первообразной функции и неопределенного интеграла</title>
     <style>
-        #workspace{
+        #workspace {
             height: 2100px;
         }
+
         a {
             color: black;
+        }
+        #text {
+            padding-right: 5px;
+        }
+        #imgH {
+            position: absolute;
+            left: 205px;
+            top: 80px;
         }
     </style>
 </head>
@@ -20,15 +29,16 @@
     <form id="form1" runat="server">
         <div id="workspace">
             <div id="header">
-                <asp:button id="btnAuthorization" runat="server" text="Войти" postbackurl="~/AuthorizationPage.aspx" class="buttonMenu buttonHeader" />
-                <asp:button id="btnRegistration" runat="server" text="Зарегистрироваться" postbackurl="~/RegistrationPage.aspx" class="buttonMenu buttonHeader" />
+                <div id="imgH"><img src="../resources/HeaderImg.png" width="700" height="80" /></div>
+                <asp:Button ID="btnAuthorization" runat="server" Text="Войти" PostBackUrl="~/AuthorizationPage.aspx" class="buttonMenu buttonHeader" />
+                <asp:Button ID="btnRegistration" runat="server" Text="Зарегистрироваться" PostBackUrl="~/RegistrationPage.aspx" class="buttonMenu buttonHeader" />
             </div>
             <div id="menu">
                 <hr />
-                <asp:button id="Button1" runat="server" text="Главная" class="buttonMenu" />
-                <asp:button id="Button2" runat="server" text="Теория" class="buttonMenu" />
-                <asp:button id="Button3" runat="server" text="Программы" class="buttonMenu" />
-                <asp:button id="Button4" runat="server" text="О проекте" class="buttonMenu" />
+                <asp:Button ID="Button1" runat="server" Text="Главная" class="buttonMenu" PostBackUrl="~/MainWindow.aspx" />
+                <asp:Button ID="Button2" runat="server" Text="Теория" class="buttonMenu" PostBackUrl="~/TheoryPages/1.TheConceptOfIndefiniteIntegral.aspx"/>
+                <asp:Button ID="Button3" runat="server" Text="Программы" class="buttonMenu" />
+                <asp:Button ID="Button4" runat="server" Text="О проекте" class="buttonMenu" PostBackUrl="~/About.aspx" />
             </div>
             <div id="content">
                 <div id="theorylist">

@@ -106,6 +106,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="About.aspx" />
     <Content Include="App_Data\ListUsers.mdf" />
     <Content Include="App_Data\ListUsers_log.ldf">
       <DependentUpon>ListUsers.mdf</DependentUpon>
@@ -138,6 +139,7 @@
     <Content Include="resources\EquationOfTheOPlane\EquationOfThePlane8.PNG" />
     <Content Include="resources\EquationOfTheOPlane\EquationOfThePlane9.PNG" />
     <Content Include="resources\FindingDerivatives\fm10.png" />
+    <Content Include="resources\HeaderImg.png" />
     <Content Include="resources\Hyperbole\Hyperbole1.PNG" />
     <Content Include="resources\Hyperbole\Hyperbole2.PNG" />
     <Content Include="resources\InverseFunction\funkcia_obr.png" />
@@ -154,8 +156,11 @@
     <Content Include="resources\Matrices\Matrices3.png" />
     <Content Include="resources\Matrices\Matrices4.png" />
     <Content Include="resources\MeaningoftheDerivative\i.jpg" />
-    <Content Include="resources\MenuImg\DefiniteIntegralMenu.png" />
-    <Content Include="resources\MenuImg\IndefinitelIntegralMenu.png" />
+    <Content Include="resources\MenuImg\AG.png" />
+    <Content Include="resources\MenuImg\AlgMenu.png" />
+    <Content Include="resources\MenuImg\DefiniteIntegralMenu.gif" />
+    <Content Include="resources\MenuImg\IndefinitelIntegra.png" />
+    <Content Include="resources\MenuImg\Limit.png" />
     <Content Include="resources\Parabola\Parabola1.PNG" />
     <Content Include="resources\Parabola\Parabola2.PNG" />
     <Content Include="resources\Planties\Planties1.jpg" />
@@ -256,6 +261,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AuthorizationPage.aspx.cs">
       <DependentUpon>AuthorizationPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

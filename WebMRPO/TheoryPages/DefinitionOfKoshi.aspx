@@ -8,11 +8,22 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Предел функции по Коши</title>
     <style>
-        #workspace{
+        #workspace {
             height: 1500px;
         }
+
         a {
             color: black;
+        }
+
+        #text {
+            padding-right: 5px;
+        }
+
+        #imgH {
+            position: absolute;
+            left: 205px;
+            top: 80px;
         }
     </style>
 </head>
@@ -21,40 +32,47 @@
         <div>
             <div id="workspace">
                 <div id="header">
+                    <div id="imgH">
+                        <img src="../resources/HeaderImg.png" width="700" height="80" /></div>
                     <asp:Button ID="btnAuthorization" runat="server" Text="Войти" PostBackUrl="~/AuthorizationPage.aspx" class="buttonMenu buttonHeader" />
                     <asp:Button ID="btnRegistration" runat="server" Text="Зарегистрироваться" PostBackUrl="~/RegistrationPage.aspx" class="buttonMenu buttonHeader" />
                 </div>
                 <div id="menu">
                     <hr />
-                    <asp:Button ID="Button1" runat="server" Text="Главная" class="buttonMenu" />
-                    <asp:Button ID="Button2" runat="server" Text="Теория" class="buttonMenu" />
+                    <asp:Button ID="Button1" runat="server" Text="Главная" class="buttonMenu" PostBackUrl="~/MainWindow.aspx" />
+                    <asp:Button ID="Button2" runat="server" Text="Теория" class="buttonMenu" PostBackUrl="~/TheoryPages/1.TheConceptOfIndefiniteIntegral.aspx" />
                     <asp:Button ID="Button3" runat="server" Text="Программы" class="buttonMenu" />
-                    <asp:Button ID="Button4" runat="server" Text="О проекте" class="buttonMenu" />
+                    <asp:Button ID="Button4" runat="server" Text="О проекте" class="buttonMenu" PostBackUrl="~/About.aspx" />
                 </div>
                 <div id="content">
                     <div id="theorylist">
                         <div>
-                        <%Response.Write(htmlArrayList);%>
+                            <%Response.Write(htmlArrayList);%>
                         </div>
                     </div>
                     <div id="text">
-                            <h4>Предел функции (по Коши)</h4>
-                            <div>При ее аргументе x, стремящемся к x0 – это такое конечное число или бесконечно удаленная точка a, для которой выполняются следующие условия:</div>
-                            <div>1)существует такая проколотая окрестность
+                        <h4>Предел функции (по Коши)</h4>
+                        <div>При ее аргументе x, стремящемся к x0 – это такое конечное число или бесконечно удаленная точка a, для которой выполняются следующие условия:</div>
+                        <div>
+                            1)существует такая проколотая окрестность
                                 <img src="https://latex.codecogs.com/gif.latex?\dot{U}0(x_{0})" title="\dot{U}0(x_{0})" />
-                                точки x0, на которой функция f(x) определена;</div>
-                            <div>2)для любой окрестности
+                            точки x0, на которой функция f(x) определена;
+                        </div>
+                        <div>
+                            2)для любой окрестности
                                 <img src="https://latex.codecogs.com/gif.latex?{U}(a)" title="{U}(a)" />
-                                точки a, принадлежащей
+                            точки a, принадлежащей
                                 <img src="https://latex.codecogs.com/gif.latex?\dot{U}0(x_{0})" title="\dot{U}0(x_{0})" />, существует такая проколотая окрестность
                                 <img src="https://latex.codecogs.com/gif.latex?\dot{U}(x_{0})" title="\dot{U}(x_{0})" />
-                                точки x0, на которой значения функции принадлежат выбранной окрестности точки a:</div>
-                            <div>f(x) принадлежит
+                            точки x0, на которой значения функции принадлежат выбранной окрестности точки a:
+                        </div>
+                        <div>
+                            f(x) принадлежит
                                 <img src="https://latex.codecogs.com/gif.latex?{U}(a)" title="{U}(a)" />
-                                при x, принадлежащем
+                            при x, принадлежащем
                                 <img src="https://latex.codecogs.com/gif.latex?\dot{U}(x_{0})" title="\dot{U}(x_{0})" />
-                            </div>
-                            <div>Здесь a и x0 также могут быть как конечными числами, так и бесконечно удаленными точками.</div>
+                        </div>
+                        <div>Здесь a и x0 также могут быть как конечными числами, так и бесконечно удаленными точками.</div>
                     </div>
                 </div>
                 <div id="footer"></div>

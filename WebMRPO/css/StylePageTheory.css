@@ -2,6 +2,7 @@
     background-color: #F5DEB3;
 }
 
+
 #workspace {
     background-color: #FFFAF0;
     height: 3000px;
@@ -44,8 +45,8 @@
 }
 
 #text {
-    
-    width: 67%;
+    padding-right: 5px;
+    width: 65%;
     position: absolute;
     right: 0px;
     height: 100%;

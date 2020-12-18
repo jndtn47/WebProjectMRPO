@@ -7,11 +7,11 @@
 // </автоматически создаваемое>
 //------------------------------------------------------------------------------
 
-namespace WebMRPO.TheoryPages
+namespace WebMRPO
 {
 
 
-    public partial class TheConceptOfIndefiniteIntegral
+    public partial class About
     {
 
         /// <summary>

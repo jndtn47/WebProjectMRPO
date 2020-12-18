@@ -14,6 +14,14 @@
         a {
             color: black;
         }
+        #text {
+            padding-right: 5px;
+        }
+        #imgH {
+            position: absolute;
+            left: 205px;
+            top: 80px;
+        }
     </style>
 </head>
     <script type="text/javascript" src="http://tex.yourequations.com/"></script>
@@ -21,15 +29,16 @@
     <form id="form1" runat="server">
         <div id="workspace">
             <div id="header">
+                 <div id="imgH"><img src="../resources/HeaderImg.png" width="700" height="80" /></div>
                 <asp:Button ID="btnAuthorization" runat="server" Text="Войти" PostBackUrl="~/AuthorizationPage.aspx" class="buttonMenu buttonHeader" />
                 <asp:Button ID="btnRegistration" runat="server" Text="Зарегистрироваться" PostBackUrl="~/RegistrationPage.aspx" class="buttonMenu buttonHeader" />
             </div>
             <div id="menu">
                 <hr />
-                <asp:Button ID="Button1" runat="server" Text="Главная" class="buttonMenu" />
-                <asp:Button ID="Button2" runat="server" Text="Теория" class="buttonMenu" />
+                <asp:Button ID="Button1" runat="server" Text="Главная" class="buttonMenu" PostBackUrl="~/MainWindow.aspx" />
+                <asp:Button ID="Button2" runat="server" Text="Теория" class="buttonMenu" PostBackUrl="~/TheoryPages/1.TheConceptOfIndefiniteIntegral.aspx"/>
                 <asp:Button ID="Button3" runat="server" Text="Программы" class="buttonMenu" />
-                <asp:Button ID="Button4" runat="server" Text="О проекте" class="buttonMenu" />
+                <asp:Button ID="Button4" runat="server" Text="О проекте" class="buttonMenu" PostBackUrl="~/About.aspx" />
             </div>
             <div id="content">
                 <div id="theorylist">
