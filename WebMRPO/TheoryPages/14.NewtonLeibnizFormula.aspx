@@ -6,7 +6,7 @@
 <head runat="server">
     <link rel="stylesheet" href="../css/StylePageTheory.css" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>>Формула Ньютона-Лейбница для вычисления определенного интеграла</title>
+    <title>Формула Ньютона-Лейбница для вычисления определенного интеграла</title>
     <style>
         #workspace{
             height: 1400px;
